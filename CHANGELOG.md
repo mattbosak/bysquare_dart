@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Fix import path in documentation
+
 ## 1.0.1
 
 - Fix LICENSE format

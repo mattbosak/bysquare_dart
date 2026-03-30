@@ -23,7 +23,7 @@ dependencies:
 ### Encode
 
 ```dart
-import 'package:bysquare_dart/bysquare.dart';
+import 'package:bysquare_dart/bysquare_dart.dart';
 
 final qr = payEncode(
   PayDataModel(
@@ -48,7 +48,7 @@ final qr = payEncode(
 ### Decode
 
 ```dart
-import 'package:bysquare_dart/bysquare.dart';
+import 'package:bysquare_dart/bysquare_dart.dart';
 
 final model = payDecode(qr);
 print(model.payments.first.amount); // 19.99
